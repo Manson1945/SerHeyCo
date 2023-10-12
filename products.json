@@ -1,0 +1,66 @@
+ [
+
+    {"name":"Piel dorada",
+     "subtitle":"Zanahoria y aceite de Ricino",
+     "info":"Pieles secas o maduras. Hidrata, revitaliza y equilibra el tono de la piel.Fuente de vitaminas y minerales.Antioxidantes, antienvejecimiento y antimanchas.Piel más tersa, equilibrada y luminosa.Contiene aceites esenciales de mandarina y neroli .Pieles secas o maduras.",
+     "id": 1,
+     "img":"./ASSETS/PICS/rotoNaranja.jpg",
+     "page": "./productos.html"
+      },
+     
+
+    
+    {"name": "Marmolado",
+    "subtitle": "Café, manteca de cacao y karité",
+    "info":"Pieles asfixiadas, deshidratadas tendientes a la celulitis. Hidrata, oxigena y protege los tejidos de la dermis.Combate la celulitis y aportar firmeza a la piel.Exfoliante natural, potente antioxidante. Piel más firme, luminosa, libre de celulitis.Contiene aceites esenciales de jazmín y mandarina.",      
+    "id": 2,
+    "img":"./ASSETS/PICS/rotoMarmolado.jpg",
+    "page": "./productos.html"
+    },
+
+     
+
+    {"name": "Ángel",
+    "subtitle":"Avena y miel ",
+    "info":"Todo tipo de piel - Mixtas - Sensibles. Nutre, hidrata, repara y protege la piel.antioxidante, antiséptico.Tonificante y revitalizante.Piel resplandeciente e hidratada.Contiene aceites esenciales de lavanda y geranio.",
+    "id": 3,
+    "img":"./ASSETS/PICS/rotoBlanco.jpg",
+    "page": "./productos.html"
+    },
+
+
+    {"name":"Noche",
+    "subtitle":"Carbón activado y aceite de Jojoba",
+    "info":"Nutre, hidrata, purifica y oxigena la piel.Función adsorbente de toxinas.Renueva y protege las células. Piel más limpia, radiante y libre de impurezas.Contiene aceites esenciales de tea tree y geranio.",
+    "id": 4,
+    "img": "./ASSETS/PICS/rotoNegro.jpg",
+    "page": "./productos.html"
+     },
+
+
+      {"name":"Acondicionador con sándalo",
+      "subtitle": "Manteca de cacao y queratina",
+      "info":"Nutritivo. Regenera y fortalece la cutícula capilar. Ayuda al crecimiento. Deja el cabello con mucho brillo, muy suave y libre de friz.",
+      "id": 5,
+      "img": "./ASSETS/PICS/Acondicionador.jpg",
+      "page": "./productos.html"
+      },
+
+
+      {"name":"Acondicionador con chocolate",
+      "subtitle": "Manteca de Karité y pantenol",
+      "info":"Nutritivo. Regenera y fortalece la cutícula capilar. Ayuda al crecimiento. Deja el cabello con mucho brillo, muy suave y libre de friz.",
+      "id": 6,
+      "img":"./ASSETS/PICS/acondicionadorMarron.jpg",
+      "page": "./productos.html"
+      },
+
+
+      {"name":"Shampoo & Acondicionador 2 en 1",
+      "subtitle":"Queratina y vitamina E",
+      "info":"Nutritivo. Regenera y fortalece la cutícula capilar. Ayuda al crecimiento. Deja el cabello con mucho brillo, muy suave y libre de frizz.",
+      "id": 7,
+      "img":"./ASSETS/PICS/Champu.jpg",
+      "page": "./productos.html"
+      }
+]

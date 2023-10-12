@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* COLORES */
+
+/* 
+#E87D67 //SALMON
+#E29677 //CLARITO
+#EE6457 //SALMON FUERTE
+#F29392 // ROSA
+#FAF6F4 //BLANCO
+#C4CBC5 //GRIS
+#48717C // OLIVA
+#1F4046 // VERDE OSCURO
+#071529 // AZUL  
+*/
+
+@font-face {
+    font-family: titulo;
+    src: url(../ASSETS/FONTS/Shrikhand-Regular.ttf);
+}
+
+@font-face {
+    font-family: tituloProductos;
+    src: url(../ASSETS/FONTS/tituloPrincipal.ttf);
+}
+
+@font-face {
+    font-family: links;
+    src: url(../ASSETS/FONTS/info.ttf);
+}
+
+@font-face {
+    font-family: precio;
+    src: url(../ASSETS/FONTS/Precio.ttf);
+}
+
+@font-face {
+    font-family: menu ;
+    src: url(../ASSETS/FONTS/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family: infoRegular;
+    src: url(../ASSETS/FONTS/infoRegular.ttf);
+}
+
+
+@font-face {
+    font-family: numeros;
+    src: url(../ASSETS/FONTS/numeros.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(../ASSETS/FONTS/tituloSemiBold.otf);
+}
+
+
+header {
+    width: 100vw;
+    background-color: #EE6457;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    position: sticky;
+    top:0;
+    
+    
+}
+
+#logo {
+    font-size: 1.2rem;
+    margin: 10px;
+    text-align: center;
+    font-family: titulo;
+    font-weight: normal;
+}
+
+nav {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a { 
+    font-family: links;
+    font-weight: bold;
+    text-decoration: none;
+    color:#FAF6F4;
+} 
+
+
+
+main {
+    background-color:#E29677 ;
+}
+
+
+
+/* --------- BANNER ---------*/
+
+.bannerContainer {
+    display: flex;
+    width: 100vw;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #EE6457 30% , transparent),
+    url("../ASSETS/PICS/jabon2.jpg");
+    background-color:#EE6457 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FAF6F4;
+    
+}
+    
+
+.banner {
+    max-width: 80vw;
+}
+
+.banner h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.banner h1 {
+    margin-top: 5px;
+    text-align: center;
+    font-family: titulo;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+
+.banner h3 {
+    font-family: menu;
+    font-size: .8rem;
+    text-align:end
+}
+
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.banner button {
+    width: 200px;
+    height: 30px;
+    margin: 30px 0;
+    
+    /* padding: 10px; */
+    font-family: infoRegular;
+    font-size: .9rem;
+    text-align:center;
+    background-color:#1F4046 ;
+    color: #FAF6F4;
+    /* border: none; */
+    border-radius: 20px;
+    
+    
+}
+
+.banner button a {
+    font-family: menu;
+}
+
+button i {
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* --------GALERIA--------- */
+
+
+.productsTitle {
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    font-family: subtitulo;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #FAF6F4;
+    background-color: #EE6457;
+}
+
+.galery {
+    display: flex;
+    margin: 5px;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+    
+    
+}
+
+.pics img {
+    display: flex;
+    max-width: 50vw;
+    max-height: 15vh;
+    
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.divLogo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.medLog {
+    width: 80vw;
+    height: 50vh;
+}
+
+
+
+/* --------- PRODUCTOS ------- */
+
+
+#mainContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    
+}
+
+.prodContainer {
+    width: 250px;
+    margin: 20px;
+    flex-grow: 1;
+    /* border: #1F4046 solid 1px; */
+    border-radius: 20px;
+    background-color: #C4CBC5;
+}
+
+.prodContainer h1 {
+    margin: 10px;
+    text-align: center;
+    font-family: titulo;
+    font-weight: normal;
+    background-color: #EE6457;
+    border-radius: 25px;
+    color: #FAF6F4;
+}
+
+.infoContainer img {
+    max-width: 50vw;
+    max-height: 10vh;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    font-family:precio ;
+    font-size: .9rem;
+    text-align: center;
+    color:#1F4046;
+}
+
+.info {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.info a {
+    
+    text-align: center;
+    margin: 10px 5px;
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #1F4046;
+    color: #FAF6F4;
+    border-radius: 20px;
+    font-family: infoRegular;
+    font-size: .9rem;
+    
+    
+}
+
+
+
+
+/* -----------FOOTER---------- */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EE6457;
+
+}
+
+
+
+
+ .footerLogo h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: titulo;
+    font-weight: normal;
+    color: #FAF6F4;
+}
+
+.footerLogo h4 {
+    text-align: center;
+    font-family: menu;
+    font-size: .6rem;
+    color: #FAF6F4;
+
+}
+
+
+.footerContact {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1F4046;
+}
+
+.footerContact h1 {
+    
+    margin: 15px 10px ;
+    font-size: 1.7rem;
+    font-family: subtitulo;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    color:#FAF6F4
+    
+}
+
+.footerContact h3 {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: infoRegular;
+    letter-spacing: 1px;
+    color:#FAF6F4;
+}
+
+
+.web {
+    align-items: center;
+    margin: 15px 10px ;
+    font-size: 1.7rem;
+    font-family: subtitulo;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align:center;
+   text-decoration: underline;
+    color:#FAF6F4
+}
+
+
+
+
+
+
+.footerWebs {
+    width: 100vw;
+    margin: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 2rem;
+    color: #FAF6F4;
+    
+
+}
+
+.registered {
+    color: #FAF6F4;
+    align-self: flex-end;
+    margin-right: 5px;
+}
+
+
+
+/* ---------ESTILO DE PAGINA PRODUCTOS-------- */
+
+.listProdContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+        /* background-color: #C4CBC5; */
+        
+        
+        /* margin-bottom: 40px; */
+      /*   background-color:#C4CBC5 ; */
+        /* padding: 10px; */
+}
+
+
+.listTitle {
+    max-width: 95%;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    font-family: titulo;
+    font-weight: normal;
+    background-color: #EE6457;  
+    color: #FAF6F4;
+    border-radius: 20px;
+}
+
+.listInfoContainer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+.listInfoContainer img {
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.listInfoContainer h2 {
+    padding: 3px;
+    font-size: 1.1rem;
+}
+
+.listInfo {
+    margin: 5px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    color: #faf6f4d8;
+    background-color: #EE6457;
+    
+    
+}
+
+.listInfo h3 {
+    font-family: infoRegular;
+    font-size: 1rem;
+    text-align:start;
+    line-height: 25px;
+}
+
+
+/* --------LOGO DE WSP--------- */
+
+
+#btn-wsp {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+}
+
+#wspLogo {
+    
+    color:#1F4046
+
+}
+
+.logoWsp {
+    width: 80px;
+    height: 80px;
+    color:#1F4046
+}
+
+
+
+#wspL {
+    width: 80px;
+    height: 80px;
+    z-index: 100;
+}
+
+
+
+
+   
+    
+
+
+
+
+
+
+
