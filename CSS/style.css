@@ -287,6 +287,10 @@ button i {
 
 }
 
+.infoTitle {
+    padding: 3px;
+}
+
 .info a {
     
     text-align: center;
@@ -299,6 +303,12 @@ button i {
     font-family: infoRegular;
     font-size: .9rem;
     
+    
+}
+
+.info h5 {
+   margin-top: 7px;
+   color:#EE6457
     
 }
 

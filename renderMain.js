@@ -57,7 +57,9 @@ const renderMain = () => {
     for (prod of productos) {
 
         salida += ` 
-        <section class="prodContainer">
+       <section class="prodContainer">
+
+       <a href="${prod.page}#${prod.id}">
 
         <h1 class="infoTitle"> ${prod.name} </h1>
 
@@ -71,11 +73,11 @@ const renderMain = () => {
         <div class="info">
             <h2 class="name"> ${prod.subtitle}</h2>
 
-            <a href="${prod.page}#${prod.id}"> Saber más...  </a> 
+            <h5>Quiero saber más... </h5> 
         </div>
         
         </div>
-
+        </a> 
     </section>
                     `
     }
